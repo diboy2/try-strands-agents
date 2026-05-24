@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-05-24T21:09:42.903Z",
+  "error": "404 model 'qwen2.5-coder:32b' not found",
+  "stack": "Error: 404 model 'qwen2.5-coder:32b' not found\n    at APIError.generate (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/node_modules/openai/core/error.mjs:50:20)\n    at OpenAI.makeStatusError (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async OpenAICompatProvider.call (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/dist/bin.js:2538:22)\n    at async validateModel (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/dist/bin.js:3871:7)\n    at async refreshCommand (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/dist/bin.js:13539:5)\n    at async Command.wrapper (file:///Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/dist/bin.js:15601:7)\n    at async Command.parseAsync (/Users/adriancagaanan/.nvm/versions/node/v26.1.0/lib/node_modules/@rely-ai/caliber/node_modules/commander/lib/command.js:1104:5)",
+  "cwd": "/Users/adriancagaanan/Github/Personal-Projects/try-strands-agents",
+  "nodeVersion": "v26.1.0"
+}

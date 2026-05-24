@@ -2229,7 +2229,7 @@ name = "try-strands-agents"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "strands-agents" },
+    { name = "strands-agents", extra = ["ollama"] },
     { name = "strands-agents-builder" },
     { name = "strands-agents-tools" },
 ]
@@ -2241,7 +2241,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "strands-agents", specifier = ">=1.41.0" },
+    { name = "strands-agents", extras = ["ollama"], specifier = ">=1.41.0" },
     { name = "strands-agents-builder", specifier = ">=0.1.10" },
     { name = "strands-agents-tools", specifier = ">=0.6.0" },
 ]
